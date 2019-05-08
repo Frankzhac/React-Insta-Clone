@@ -3,6 +3,7 @@ import SearchBar from "./components/SearchBar";
 import dummyData from './dummy-data';
 import './App.css';
 import PostContainer from './components/PostsContainer/PostContainer';
+import Login from './components/Login/Login';
 
 
 class App extends React.Component {
@@ -27,6 +28,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
+
         <SearchBar
           searchTerm={this.state.searchTerm}
           searchPosts={this.searchPostsHandler}
