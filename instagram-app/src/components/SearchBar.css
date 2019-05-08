@@ -1,13 +1,12 @@
-i.Nav {
+.Nav {
   background-color: #fff;
   border-bottom: 1px solid rgba(0, 0, 0, 0.0975);
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 2;
-  -webkit-transition: height 0.2s ease-in-out;
-  transition: height 0.2s ease-in-out;
   height: 77px;
+  margin: 0 auto;
 }
 .Nav-menus {
   display: flex;
@@ -26,4 +25,18 @@ i.Nav {
   height: 35px;
   width: 176px;
   text-indent: -1000%
+}
+
+input {
+  text-align: center;
+}
+
+.social-container {
+  display: flex;
+}
+
+.social {
+  width: 20px;
+  height: 20px;
+  padding-left: 30px;
 }
