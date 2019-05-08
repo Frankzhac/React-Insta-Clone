@@ -19,6 +19,23 @@
 
 .post-header {
   display: flex;
+  align-items: center;
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+username {
+  margin-left: 5px;
+}
+
+.like-section {
+  display: flex;
+}
+
+.like-section-wrapper {
+  height: 10px;
+  width: 10px;
+  margin: 10px;
 }
 
 .post-thumb-wrapper {

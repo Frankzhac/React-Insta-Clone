@@ -30,6 +30,11 @@
 
 input {
   text-align: center;
+  border-radius: 4px;
+  box-shadow: none;
+  border: 1px solid grey;
+  background-color: #f6f5f5;
+  opacity: 0.6;
 }
 
 .social-container {
