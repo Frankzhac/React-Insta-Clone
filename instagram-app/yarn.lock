@@ -3285,6 +3285,11 @@ dotenv@6.2.0:
   resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-6.2.0.tgz#941c0410535d942c8becf28d3f357dbd9d476064"
   integrity sha512-HygQCKUBSFl8wKQZBSemMywRWcEDNidvNbjGVyZu3nbZ8qq9ubiPoGLMdRDpfSrpkkm9BXYFkpKxxFX38o/76w==
 
+dotty@0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/dotty/-/dotty-0.0.1.tgz#cbe6d45c52abd92c4224c079206e2581d14d038a"
+  integrity sha1-y+bUXFKr2SxCJMB5IG4lgdFNA4o=
+
 duplexer@^0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/duplexer/-/duplexer-0.1.1.tgz#ace6ff808c1ce66b57d1ebf97977acb02334cfc1"
@@ -7672,6 +7677,13 @@ prop-types@^15.5.10, prop-types@^15.6.2:
     object-assign "^4.1.1"
     react-is "^16.8.1"
 
+prop@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/prop/-/prop-0.1.1.tgz#e464c772f6cec96e4c3db87b6b7ebb8257676441"
+  integrity sha1-5GTHcvbOyW5MPbh7a367gldnZEE=
+  dependencies:
+    dotty "0.0.1"
+
 property-information@^5.0.0, property-information@^5.0.1:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/property-information/-/property-information-5.0.1.tgz#c3b09f4f5750b1634c0b24205adbf78f18bdf94f"
@@ -9234,6 +9246,11 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
+
+types@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/types/-/types-0.1.1.tgz#860c6859d11366293f835d8c95aebcf95029838e"
+  integrity sha1-hgxoWdETZik/g12Mla68+VApg44=
 
 uglify-js@3.4.x:
   version "3.4.10"
