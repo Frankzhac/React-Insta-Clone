@@ -4,7 +4,7 @@ import PostContainer from './components/PostsContainer/PostContainer';
 import SearchBar from '.component/SearchBar';
 
 
-class App extends React.Component {
+class PostPage extends React.Component {
   constructor() {
     super();
     this.state = {
@@ -43,4 +43,4 @@ class App extends React.Component {
   }
 }
 
-export default App;
+export default PostPage;
