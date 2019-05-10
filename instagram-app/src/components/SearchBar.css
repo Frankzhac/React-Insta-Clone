@@ -1,0 +1,48 @@
+.Nav {
+  background-color: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.0975);
+  position: static;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+  height: 77px;
+  margin: 0 auto;
+}
+.Nav-menus {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 77px;
+  width: 70%;
+  margin: 0 auto;
+  padding: 26px 40px;
+}
+.Nav-brand-logo {
+  display: block;
+  background-position: -176px 0px;
+  background-image: url(../sprite.png);
+  background-size: 405px 379px;
+  background-repeat: no-repeat;
+  height: 35px;
+  width: 176px;
+  text-indent: -1000%
+}
+
+input {
+  text-align: center;
+  border-radius: 4px;
+  box-shadow: none;
+  border: 1px solid grey;
+  background-color: #f6f5f5;
+  opacity: 0.6;
+}
+
+.social-container {
+  display: flex;
+}
+
+.social {
+  width: 20px;
+  height: 20px;
+  padding-left: 30px;
+}
